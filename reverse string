@@ -1,0 +1,18 @@
+Write a program to reverse a word using loop? (Not to use inbuilt functions)
+Input: 
+String: TEMPLE
+ Output:
+Reverse String: ELPMET
+Scanner input=new Scanner(System.in);
+String name=input.nextLine();
+String empty="";
+int len=name.length();
+for(int i=len-1;i>=0;i--)
+{
+ empty=empty+name.charAt(i);
+}
+System.out.print(empty);
+Input: 
+String: TEMPLE
+ Output:
+Reverse String: ELPMET
