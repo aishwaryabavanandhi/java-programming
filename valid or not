@@ -1,0 +1,14 @@
+Write a program to check the entered user name is valid or not. Get both the inputs 
+Scanner input=new Scanner(System.in);
+String s1=input.nextLine();
+String s2=input.nextLine();
+if(s1==s2)
+ System.out.print("user name valid");
+else
+ System.out.print("user name Invalid");
+rom the user.
+ Input
+Enter the user name: Saveetha@789
+Reenter the user name: Saveetha@123
+Output:
+ User name is Invalid
